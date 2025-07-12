@@ -1,0 +1,40 @@
+<!--add new item-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>List a New Item</h1>
+</header>
+<div class="container">
+    <form>
+        <label>Title: <input type="text" name="title" required></label>
+        <label>Description: <textarea name="description" required></textarea></label>
+        <label>Category:
+            <select name="category">
+                <option>Tops</option>
+                <option>Bottoms</option>
+                <option>Outerwear</option>
+                <option>Accessories</option>
+            </select>
+        </label>
+        <label>Type: <input type="text" name="type"></label>
+        <label>Size: <input type="text" name="size"></label>
+        <label>Condition:
+            <select name="condition">
+                <option>New</option>
+                <option>Good</option>
+                <option>Fair</option>
+            </select>
+        </label>
+        <label>Tags: <input type="text" name="tags"></label>
+        <label>Upload Image: <input type="file" name="image"></label>
+        <button class="button" type="submit">Submit Item</button>
+    </form>
+</div>
+</body>
+</html>
